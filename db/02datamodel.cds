@@ -57,6 +57,7 @@ context master {
         DEPTH:Decimal;	
         HEIGHT:	Decimal;
         DIM_UNIT:String(2);
+        DESCRIPTION:String(64);
     }
 
     entity employees: cuid, temporal {
