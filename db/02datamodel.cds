@@ -50,7 +50,7 @@ context master {
         PRODUCT_ID: String(28);
         TYPE_CODE: String(2);
         CATEGORY: String(32);
-        DESCRIPTION: localized String(255);
+        
         // DESC_GUID: Association to prodtext;
         SUPPLIER_GUID: Association to master.businesspartner;
         TAX_TARIF_CODE: Integer;
@@ -63,6 +63,7 @@ context master {
         DEPTH:Decimal;	
         HEIGHT:	Decimal;
         DIM_UNIT:String(2);
+        DESCRIPTION: localized String(255);
         
     }
 
