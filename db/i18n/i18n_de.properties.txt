@@ -1,0 +1,98 @@
+
+##Business Partnr Table
+bp_key=Geschäftspartner Guid
+bp_role=Partnertyp
+company_name=Name der Firma
+bp_id=Geschäftspartnercode
+email_addr=E-Mail-Addresse
+poHeader=Bestellkopf
+poItems=Bestellpositionen
+Phone_Number= Telefonnummer
+Fax_Number=Faxnummer
+WEB_ADDRESS =Webadresse
+Address_Guid=Adresse Guid
+
+
+
+##Address
+ap_key1=Adresse Guid
+City=Stadta
+Postal_Code=Postleitzahl
+Street=Straße
+Building=Gebäude
+Country=Land
+Address_Type=Adresstyp
+VAL_START_DATE= Wert Startdatum
+VAL_END_DATE=Wert Enddatum
+LATITUDE=Breite
+LONGITUDE=Längengrad
+businesspartner=Geschäftspartneradresse
+
+
+##PRODTEXT
+
+prod_Key=Produktschlüssel
+Parent_Key=Übergeordneter Schlüssel
+Language=Sprache
+Text=Text
+
+
+
+
+##Product
+Prod_key1=Produktschlüssel
+Product_Id=Produkt ID
+Type_Code=Produkttypcode
+Category=Produktkategorie
+Description=Beschreibung
+Supplier_Guid=Produktlieferanten Guid
+Tax_Tarif_Code= Steuertarifcode
+Measure_Unit=Maßeinheit
+Weight_Unit=  Gewichtseinheit
+Weight_Measure=Gewichtsmaß
+Currency_Code=Währungscode
+Price=Preis
+Width=Breite
+Depth=Tiefe
+Height=Höhe
+Dim_Unit=Abmessungen
+
+
+##Employee1
+nameFirst= Vorname
+nameMiddle= Zweiter Vorname
+nameLast= Nachname
+nameInitials=Vorname
+sex =Sex
+language=Sprache
+phoneNumber= Telefonnummer
+email=E-Mail-Addresse
+loginName=Benutzername
+Currency=Währung
+salaryAmount=Gehaltsbetrag
+accountNumber=Kontonummer
+bankId=Bank ID
+bankName= Bank Name
+
+
+
+
+
+##Purchase Order Table4
+
+Node_KEy=Bestellschlüssel
+PO_ID =Bestellnummer
+PARTNER_GUID=Bestellpartner Guid
+LIFECYCLE_STATUS=Lebenszyklusstatus
+OVERALL_STATUS=Gesamtstatus
+Items=Bestellpositionen
+GROSS_AMOUNT= Bruttobetrag
+NET_AMOUNT=Netto-Betrag
+CURRENCY_CODE=Währungscode
+TAX_AMOUNT=Steuerbetrag
+
+##poitems
+Node_KEy=Schlüssel für Bestellpositionen
+PARENT_KEY =Übergeordneter Schlüssel
+PO_ITEM_POS=Bestellpositionen Pos
+PRODUCT_GUID=Produktführung
